@@ -1,0 +1,28 @@
+body{
+    font-size: 80pt;
+    font-family: Cascadia code;
+    font-weight: 290;
+    -webkit-user-select: none;
+    /* -webkit-app-region: drag; not here because
+    dragging doesn't seem to work when ploaced on the entire body*/
+}
+
+#hour{
+float: left;
+-webkit-app-region: drag;
+}
+
+#separator{
+float: left;
+-webkit-app-region: drag;
+}
+
+#min{
+float: left;
+-webkit-app-region: drag;
+}
+
+#AM-PM{
+float: left;
+-webkit-app-region: drag;
+}
