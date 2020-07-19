@@ -13,7 +13,7 @@ function createWindow () {
     resizable: false,
     transparent: true,
     frame: false,
-    icon: __dirname + '/icon.png',
+    icon: 'build/512x512.png',
     webPreferences: {
         nodeIntegration: true
      }

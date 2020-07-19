@@ -9,11 +9,15 @@
     "build": {
       "appId": "--",
       "linux": {
+        "icon": "./build",
         "target": [
           "pacman",
           "AppImage"
         ]
-      }
+      },
+      "directories": {
+        "buildResources": "build"
+    }
     },
     "scripts": {
       "start": "electron ."
