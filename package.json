@@ -3,9 +3,20 @@
     "description": "A simple Electron desk clock",
     "version": "0.1.0",
     "main": "main.js",
+
+    "build": {
+      "appId": "--",
+      "linux": {
+        "target": [
+          "pacman",
+          "AppImage"
+        ]
+      }
+    },
     "scripts": {
       "start": "electron ."
     },
+ 
     "devDependencies": {
       "electron": "^8.3.4"
     },
