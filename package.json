@@ -3,7 +3,9 @@
     "description": "A simple Electron desk clock",
     "version": "0.1.0",
     "main": "main.js",
-
+    "author": {
+      "email": "sammyspammerson@gmail.com"
+    },
     "build": {
       "appId": "--",
       "linux": {
